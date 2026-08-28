@@ -8,6 +8,9 @@ const confettiCount = 140;
 const confetti = [];
 let animationFrameId;
 const animationDurationMs = 3200;
+window.alert(
+  "Ce site est codé avec le cul donc faut l'envoyer à ton grand frère bien aimé et qui est beau"
+);
 
 function resizeCanvas() {
   canvas.width = window.innerWidth;
