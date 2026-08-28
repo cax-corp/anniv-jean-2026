@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joyeux anniversaire !</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="card" aria-live="polite">
+        <h1>Joyeux anniversaire 🎉</h1>
+        <p class="age">16 ans déjà !</p>
+        <div id="animation-message" class="animation-message">
+          Prépare-toi pour une petite surprise...
+        </div>
+        <div id="reveal" class="reveal hidden">
+          <p>
+            pour cette occasion je t'offre......... [suspense]....... le jeu de
+            ton choix !
+          </p>
+          <label for="steam-game">Quel jeu Steam te ferait plaisir ?</label>
+          <input
+            id="steam-game"
+            name="steam-game"
+            type="text"
+            placeholder="Écris le nom du jeu ici"
+            autocomplete="off"
+          />
+        </div>
+      </section>
+      <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
